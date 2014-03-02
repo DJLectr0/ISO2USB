@@ -18,6 +18,7 @@
 		8862A04D18C23F3100B46CD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8862A02C18C23F3100B46CD7 /* Cocoa.framework */; };
 		8862A05518C23F3100B46CD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8862A05318C23F3100B46CD7 /* InfoPlist.strings */; };
 		8862A05718C23F3100B46CD7 /* ISO2USBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8862A05618C23F3100B46CD7 /* ISO2USBTests.m */; };
+		8862A06218C2480300B46CD7 /* NSString+LGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8862A06118C2480300B46CD7 /* NSString+LGAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		8862A05218C23F3100B46CD7 /* ISO2USBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ISO2USBTests-Info.plist"; sourceTree = "<group>"; };
 		8862A05418C23F3100B46CD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8862A05618C23F3100B46CD7 /* ISO2USBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISO2USBTests.m; sourceTree = "<group>"; };
+		8862A06018C2480300B46CD7 /* NSString+LGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LGAdditions.h"; sourceTree = "<group>"; };
+		8862A06118C2480300B46CD7 /* NSString+LGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LGAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				8862A03E18C23F3100B46CD7 /* AppDelegate.h */,
 				8862A03F18C23F3100B46CD7 /* AppDelegate.m */,
+				8862A06018C2480300B46CD7 /* NSString+LGAdditions.h */,
+				8862A06118C2480300B46CD7 /* NSString+LGAdditions.m */,
 				8862A04118C23F3100B46CD7 /* MainMenu.xib */,
 				8862A04418C23F3100B46CD7 /* Images.xcassets */,
 				8862A03318C23F3100B46CD7 /* Supporting Files */,
@@ -252,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8862A06218C2480300B46CD7 /* NSString+LGAdditions.m in Sources */,
 				8862A04018C23F3100B46CD7 /* AppDelegate.m in Sources */,
 				8862A03918C23F3100B46CD7 /* main.m in Sources */,
 			);
